@@ -1,0 +1,105 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": null,
+  "creator": [
+    {
+      "type": "Person",
+      "id": 1,
+      "givenName": "Erin",
+      "familyName": "Buchanan",
+      "email": "erinbuchanan@missouristate.edu",
+      "affiliation": "Missouri State University"
+    }
+  ],
+  "description": null,
+  "datePublished": null,
+  "keywords": null,
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": null,
+  "spatialCoverage": {
+    "type": "Place",
+    "name": null,
+    "geo": {
+      "type": "GeoShape",
+      "box": "37 17 24 93"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "value": "mpg",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "cyl",
+      "unitText": null,
+      "description": "dfds"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "disp",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "hp",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "drat",
+      "unitText": "fdsfds",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "wt",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "qsec",
+      "unitText": null,
+      "description": "sfdsfdd"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "vs",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "am",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "gear",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "carb",
+      "unitText": null,
+      "description": null
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "mtcars.csv",
+      "contentUrl": null,
+      "fileFormat": "csv"
+    }
+  ]
+}
