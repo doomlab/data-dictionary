@@ -1,0 +1,12 @@
+"fileName","variableName","description","unitText"
+"mtcars.csv","mpg","Miles Per Gallon",NA
+"mtcars.csv","cyl","Cylinders",NA
+"mtcars.csv","disp",NA,NA
+"mtcars.csv","hp",NA,NA
+"mtcars.csv","drat",NA,NA
+"mtcars.csv","wt","Weight","Pounds"
+"mtcars.csv","qsec","sfdsfdd",NA
+"mtcars.csv","vs",NA,NA
+"mtcars.csv","am",NA,NA
+"mtcars.csv","gear",NA,NA
+"mtcars.csv","carb",NA,NA
