@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "type": "Dataset",
-  "name": null,
+  "name": [null, "Mtcars"],
   "creator": [
     {
       "type": "Person",
@@ -12,18 +12,18 @@
       "affiliation": "Missouri State University"
     }
   ],
-  "description": null,
-  "datePublished": null,
+  "description": [null, "More here about the data"],
+  "datePublished": [null, "09/07/2018"],
   "keywords": null,
-  "funder": null,
-  "temporalCoverage": "NA/NA",
-  "license": null,
+  "funder": [null, null],
+  "temporalCoverage": ["NA/NA", "NA/NA"],
+  "license": [null, null],
   "spatialCoverage": {
     "type": "Place",
-    "name": null,
+    "name": [null, null],
     "geo": {
       "type": "GeoShape",
-      "box": "37 17 24 93"
+      "box": ["37 17 24 93", "NA NA NA NA"]
     }
   },
   "variableMeasured": [
@@ -31,13 +31,13 @@
       "type": "PropertyValue",
       "value": "mpg",
       "unitText": null,
-      "description": null
+      "description": "Miles Per Gallon"
     },
     {
       "type": "PropertyValue",
       "value": "cyl",
       "unitText": null,
-      "description": "dfds"
+      "description": "Cylinders"
     },
     {
       "type": "PropertyValue",
@@ -54,20 +54,20 @@
     {
       "type": "PropertyValue",
       "value": "drat",
-      "unitText": "fdsfds",
+      "unitText": null,
       "description": null
     },
     {
       "type": "PropertyValue",
       "value": "wt",
-      "unitText": null,
-      "description": null
+      "unitText": "Pounds",
+      "description": "Weight"
     },
     {
       "type": "PropertyValue",
       "value": "qsec",
       "unitText": null,
-      "description": "sfdsfdd"
+      "description": null
     },
     {
       "type": "PropertyValue",
@@ -97,7 +97,7 @@
   "distribution": [
     {
       "type": "DataDownload",
-      "name": "mtcars.csv",
+      "name": "Mtcars from base R",
       "contentUrl": null,
       "fileFormat": "csv"
     }

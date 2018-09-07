@@ -1,3 +1,6 @@
+#if you do not have dataspice do this
+#devtools::install_github("ropenscilabs/dataspice")
+
 #set working directory
 #save this file in a folder you want to use
 #this code sets up the working directory as the place this file is saved

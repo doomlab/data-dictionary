@@ -1,2 +1,2 @@
-fileName,name,contentUrl,fileFormat
-mtcars.csv,mtcars.csv,NA,csv
+"fileName","name","contentUrl","fileFormat"
+"mtcars.csv","Mtcars from base R",NA,"csv"
