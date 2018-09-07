@@ -1,0 +1,105 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "MTcars",
+  "creator": [
+    {
+      "type": "Person",
+      "id": 4,
+      "givenName": "Hananh",
+      "familyName": "Johnson",
+      "email": "hrj11698@live.missouristate.edu",
+      "affiliation": "Missouri State University"
+    }
+  ],
+  "description": "More here about the data",
+  "datePublished": "09/07/2018",
+  "keywords": null,
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": null,
+  "spatialCoverage": {
+    "type": "Place",
+    "name": null,
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "value": "mpg",
+      "unitText": null,
+      "description": "Miles Per Gallon"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "cyl",
+      "unitText": null,
+      "description": "Cylinders"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "disp",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "hp",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "drat",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "wt",
+      "unitText": "Pounds",
+      "description": "Weight"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "qsec",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "vs",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "am",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "gear",
+      "unitText": null,
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "value": "carb",
+      "unitText": null,
+      "description": null
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "MTcars from base R",
+      "contentUrl": null,
+      "fileFormat": "csv"
+    }
+  ]
+}
