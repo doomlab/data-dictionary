@@ -1,0 +1,12 @@
+fileName,variableName,description,unitText
+mtcars.csv,mpg,NA,NA
+mtcars.csv,cyl,NA,NA
+mtcars.csv,disp,NA,NA
+mtcars.csv,hp,NA,NA
+mtcars.csv,drat,NA,NA
+mtcars.csv,wt,NA,NA
+mtcars.csv,qsec,NA,NA
+mtcars.csv,vs,NA,NA
+mtcars.csv,am,NA,NA
+mtcars.csv,gear,NA,NA
+mtcars.csv,carb,NA,NA
