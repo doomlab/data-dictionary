@@ -1,29 +1,29 @@
 {
   "@context": "http://schema.org",
   "type": "Dataset",
-  "name": [null, "Mtcars"],
+  "name": "Mtcars",
   "creator": [
     {
       "type": "Person",
-      "id": 1,
-      "givenName": "Erin",
-      "familyName": "Buchanan",
-      "email": "erinbuchanan@missouristate.edu",
+      "id": 129,
+      "givenName": "Hannah",
+      "familyName": "Stash",
+      "email": "stashhannah@yahoo.com",
       "affiliation": "Missouri State University"
     }
   ],
-  "description": [null, "More here about the data"],
-  "datePublished": [null, "09/07/2018"],
+  "description": "More here about the data",
+  "datePublished": "09/07/2018",
   "keywords": null,
-  "funder": [null, null],
-  "temporalCoverage": ["NA/NA", "NA/NA"],
-  "license": [null, null],
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": null,
   "spatialCoverage": {
     "type": "Place",
-    "name": [null, null],
+    "name": null,
     "geo": {
       "type": "GeoShape",
-      "box": ["37 17 24 93", "NA NA NA NA"]
+      "box": "37 17 24 93"
     }
   },
   "variableMeasured": [
@@ -67,7 +67,7 @@
       "type": "PropertyValue",
       "value": "qsec",
       "unitText": null,
-      "description": null
+      "description": "sfdsfdd"
     },
     {
       "type": "PropertyValue",

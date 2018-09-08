@@ -1,29 +1,29 @@
 {
   "@context": "http://schema.org",
   "type": "Dataset",
-  "name": [null, "Mtcars"],
+  "name": "MTcars",
   "creator": [
     {
       "type": "Person",
-      "id": 1,
-      "givenName": "Erin",
-      "familyName": "Buchanan",
-      "email": "erinbuchanan@missouristate.edu",
+      "id": 4,
+      "givenName": "Hananh",
+      "familyName": "Johnson",
+      "email": "hrj11698@live.missouristate.edu",
       "affiliation": "Missouri State University"
     }
   ],
-  "description": [null, "More here about the data"],
-  "datePublished": [null, "09/07/2018"],
+  "description": "More here about the data",
+  "datePublished": "09/07/2018",
   "keywords": null,
-  "funder": [null, null],
-  "temporalCoverage": ["NA/NA", "NA/NA"],
-  "license": [null, null],
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": null,
   "spatialCoverage": {
     "type": "Place",
-    "name": [null, null],
+    "name": null,
     "geo": {
       "type": "GeoShape",
-      "box": ["37 17 24 93", "NA NA NA NA"]
+      "box": "NA NA NA NA"
     }
   },
   "variableMeasured": [
@@ -97,7 +97,7 @@
   "distribution": [
     {
       "type": "DataDownload",
-      "name": "Mtcars from base R",
+      "name": "MTcars from base R",
       "contentUrl": null,
       "fileFormat": "csv"
     }
