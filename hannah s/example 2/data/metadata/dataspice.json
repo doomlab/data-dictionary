@@ -1,0 +1,135 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "MCQ",
+  "creator": [
+    {
+      "type": "Person",
+      "id": 210,
+      "givenName": "Hannah",
+      "familyName": "Stash",
+      "email": "xxx@yahoo.com",
+      "affiliation": "Missouri State University"
+    }
+  ],
+  "description": "16 quest.",
+  "datePublished": 2018,
+  "keywords": null,
+  "funder": null,
+  "temporalCoverage": "2017/2018",
+  "license": null,
+  "spatialCoverage": {
+    "type": "Place",
+    "name": null,
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "value": "reason.4",
+      "unitText": null,
+      "description": "Basic reasoning question"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "reason.16",
+      "unitText": null,
+      "description": "Basic reasoning question"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "reason.17",
+      "unitText": null,
+      "description": "Basic reasoning question"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "reason.19",
+      "unitText": null,
+      "description": "Basic reasoning question"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "letter.7",
+      "unitText": null,
+      "description": "In the following alpha numeric series, what letter comes next?"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "letter.33",
+      "unitText": null,
+      "description": "In the following alpha numeric series, what letter comes next?"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "letter.34",
+      "unitText": null,
+      "description": "In the following alpha numeric series, what letter comes next?"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "letter.58",
+      "unitText": null,
+      "description": "In the following alpha numeric series, what letter comes next?"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "matrix.45",
+      "unitText": null,
+      "description": "A matrix reasoning task"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "matrix.46",
+      "unitText": null,
+      "description": "A matrix reasoning task"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "matrix.47",
+      "unitText": null,
+      "description": "A matrix reasoning task"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "matrix.55",
+      "unitText": null,
+      "description": "A matrix reasoning task"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "rotate.3",
+      "unitText": null,
+      "description": "Spatial rotation of type 1.2"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "rotate.4",
+      "unitText": null,
+      "description": "Spatial rotation of type 1.2"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "rotate.6",
+      "unitText": null,
+      "description": "Spatial rotation of type 1.1"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "rotate.8",
+      "unitText": null,
+      "description": "Spatial rotation of type 2.3"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "16 Multiple Choice IQ Questions & Responses",
+      "contentUrl": null,
+      "fileFormat": "csv"
+    }
+  ]
+}
