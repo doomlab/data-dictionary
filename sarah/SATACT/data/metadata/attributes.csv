@@ -1,7 +1,7 @@
 "fileName","variableName","description","unitText"
-"sat_act.csv","gender","male=1 female=2",NA
-"sat_act.csv","education",NA,NA
-"sat_act.csv","age",NA,NA
-"sat_act.csv","ACT",NA,NA
+"sat_act.csv","gender","male, female","male=1 female=2"
+"sat_act.csv","education","high school through graduate work","1-5"
+"sat_act.csv","age","years",NA
+"sat_act.csv","ACT","ACT Composite Scores","1-36 points"
 "sat_act.csv","SATV","SAT Verbal Scores","200-800 points"
-"sat_act.csv","SATQ",NA,NA
+"sat_act.csv","SATQ","SAT Quantitative Scores","200-800 points"
