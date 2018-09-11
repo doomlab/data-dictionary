@@ -1,0 +1,7 @@
+"fileName","variableName","description","unitText"
+"sat_act.csv","gender","male=1 female=2",NA
+"sat_act.csv","education",NA,NA
+"sat_act.csv","age",NA,NA
+"sat_act.csv","ACT",NA,NA
+"sat_act.csv","SATV","SAT Verbal Scores","200-800 points"
+"sat_act.csv","SATQ",NA,NA
