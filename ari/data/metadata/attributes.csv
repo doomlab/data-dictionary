@@ -1,12 +1,12 @@
 "fileName","variableName","description","unitText"
 "mtcars.csv","mpg","Miles Per Gallon","mpg"
 "mtcars.csv","cyl","Cylinders",NA
-"mtcars.csv","disp",NA,NA
-"mtcars.csv","hp",NA,NA
-"mtcars.csv","drat",NA,NA
-"mtcars.csv","wt","Weight","pounds"
-"mtcars.csv","qsec",NA,NA
-"mtcars.csv","vs",NA,NA
-"mtcars.csv","am",NA,NA
-"mtcars.csv","gear",NA,NA
-"mtcars.csv","carb",NA,NA
+"mtcars.csv","disp","Displacement","cu.in."
+"mtcars.csv","hp","Gross Horsepower","horsepower"
+"mtcars.csv","drat","Rear Axle Ratio",NA
+"mtcars.csv","wt","Weight","1K pounds"
+"mtcars.csv","qsec","1/4 Mile Time",NA
+"mtcars.csv","vs","Engine","0 = V-shaped, 1 = straight"
+"mtcars.csv","am","Transmission","0 = automatic, 1 = manual"
+"mtcars.csv","gear","Number of Forward Gears",NA
+"mtcars.csv","carb","Number of Carburetors",NA
