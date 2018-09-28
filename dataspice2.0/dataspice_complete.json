@@ -1,20 +1,31 @@
 {
   "@context": "http://schema.org",
   "type": "Dataset",
-  "name": "mtcars",
+  "name": "sat_act",
   "creator": [
     {
       "type": "Person",
       "id": "your ORC ID",
+<<<<<<< HEAD
       "givenName": "Arielle",
       "familyName": "Cunningham",
+=======
+      "givenName": "Sarah",
+      "familyName": "Crain",
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
       "email": null,
       "affliation": null
     }
   ],
+<<<<<<< HEAD
   "description": "Data from Motor Trends",
   "datePublished": "9/28/18",
   "keywords": "car",
+=======
+  "description": "SAT/ACT Data",
+  "datePublished": null,
+  "keywords": null,
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
   "funder": null,
   "temporalCoverage": "NA/NA",
   "license": null,
@@ -25,6 +36,7 @@
   "variableMeasured": [
     {
       "type": "PropertyValue",
+<<<<<<< HEAD
       "unitText": null,
       "name": "mpg",
       "description": "miles per gallon"
@@ -52,49 +64,59 @@
       "unitText": null,
       "name": "drat",
       "description": null
+=======
+      "unitText": "",
+      "name": "gender",
+      "description": ""
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "wt",
+      "name": "education",
       "description": null
     },
     {
       "type": "PropertyValue",
+<<<<<<< HEAD
       "unitText": "xx",
       "name": "qsec",
       "description": null
+=======
+      "unitText": null,
+      "name": "age",
+      "description": "sfd"
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "vs",
+      "name": "ACT",
       "description": null
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
-      "name": "am",
-      "description": null
+      "unitText": "efew",
+      "name": "SATV",
+      "description": "e"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "gear",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "carb",
+      "name": "SATQ",
       "description": null
     }
   ],
   "distribution": [
     {
       "type": "DataDownload",
+<<<<<<< HEAD
       "name": "Data from Motor Trends",
       "contentUrl": "xxx",
+=======
+      "name": "SAT/ACT Data",
+      "contentUrl": null,
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
       "fileFormat": "csv"
     }
   ]

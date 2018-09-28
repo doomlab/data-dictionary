@@ -1,4 +1,5 @@
 "","fileName","variableName","description","unitText"
+<<<<<<< HEAD
 "1","mtcars","mpg","miles per gallon",NA
 "2","mtcars","cyl",NA,"x"
 "3","mtcars","disp",NA,NA
@@ -10,3 +11,11 @@
 "9","mtcars","am",NA,NA
 "10","mtcars","gear",NA,NA
 "11","mtcars","carb",NA,NA
+=======
+"1","sat_act","gender","",""
+"2","sat_act","education",NA,NA
+"3","sat_act","age","sfd",NA
+"4","sat_act","ACT",NA,NA
+"5","sat_act","SATV","e","efew"
+"6","sat_act","SATQ",NA,NA
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f

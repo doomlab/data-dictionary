@@ -1,2 +1,6 @@
 "","fileName","name","contentUrl","fileFormat"
+<<<<<<< HEAD
 "1","mtcars","Data from Motor Trends","xxx","csv"
+=======
+"1","sat_act","SAT/ACT Data",NA,"csv"
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
