@@ -6,32 +6,32 @@
     {
       "type": "Person",
       "id": "your ORC ID",
-      "givenName": "First Name",
-      "familyName": "Last Name",
+      "givenName": "Arielle",
+      "familyName": "Cunningham",
       "email": null,
       "affliation": null
     }
   ],
-  "description": null,
-  "datePublished": null,
-  "keywords": null,
+  "description": "Data from Motor Trends",
+  "datePublished": "9/28/18",
+  "keywords": "car",
   "funder": null,
   "temporalCoverage": "NA/NA",
   "license": null,
   "spatialCoverage": {
     "type": "Place",
-    "name": null
+    "name": "Springfield, MO"
   },
   "variableMeasured": [
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "mpg",
-      "description": null
+      "description": "miles per gallon"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "x",
       "name": "cyl",
       "description": null
     },
@@ -45,7 +45,7 @@
       "type": "PropertyValue",
       "unitText": null,
       "name": "hp",
-      "description": null
+      "description": "horsepower"
     },
     {
       "type": "PropertyValue",
@@ -61,7 +61,7 @@
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "xx",
       "name": "qsec",
       "description": null
     },
@@ -93,8 +93,8 @@
   "distribution": [
     {
       "type": "DataDownload",
-      "name": "mtcars",
-      "contentUrl": null,
+      "name": "Data from Motor Trends",
+      "contentUrl": "xxx",
       "fileFormat": "csv"
     }
   ]

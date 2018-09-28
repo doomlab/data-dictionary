@@ -1,11 +1,11 @@
 "","fileName","variableName","description","unitText"
-"1","mtcars","mpg",NA,NA
-"2","mtcars","cyl",NA,NA
+"1","mtcars","mpg","miles per gallon",NA
+"2","mtcars","cyl",NA,"x"
 "3","mtcars","disp",NA,NA
-"4","mtcars","hp",NA,NA
+"4","mtcars","hp","horsepower",NA
 "5","mtcars","drat",NA,NA
 "6","mtcars","wt",NA,NA
-"7","mtcars","qsec",NA,NA
+"7","mtcars","qsec",NA,"xx"
 "8","mtcars","vs",NA,NA
 "9","mtcars","am",NA,NA
 "10","mtcars","gear",NA,NA
