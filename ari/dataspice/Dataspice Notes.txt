@@ -1,0 +1,15 @@
+Attributes
+-I didn't always know what to put for unit text, and I also included labels for levels of a variable in this column, when applicable
+
+Access
+-Just what
+
+Biblio
+-We need to figure out maps/coordinates and write out some instructions for using it
+-No idea what wktString is supposed to be
+-One of my cells turned blue and I don't know why
+-Every time you call edit_biblio and open the app, a new line is added, even if you didn't save it the previous time. That could be problematic. (Creators apparently does this too. It could be useful to have multiple creator lines, but what if you open it when you don't need to?)
+
+General
+-Should we write in anything for cells we don't use (such as unitText when there is none) like NA?
+-I couldn't get the html file to update, so I deleted it and ran build_site() again, but it still won't make a new html file. The JSON file does appear to have updated.

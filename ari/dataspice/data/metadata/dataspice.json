@@ -1,29 +1,37 @@
 {
   "@context": "http://schema.org",
   "type": "Dataset",
-  "name": "Mtcars",
+  "name": ["Mtcars", null, null],
   "creator": [
     {
       "type": "Person",
       "id": 1,
       "givenName": "Arielle",
       "familyName": "Cunningham",
-      "email": "arielle924",
+      "email": "arielle924@live.missouristate.edu",
       "affiliation": "Missouri State University"
+    },
+    {
+      "type": "Person",
+      "id": "NA",
+      "givenName": null,
+      "familyName": null,
+      "email": null,
+      "affiliation": null
     }
   ],
-  "description": null,
-  "datePublished": "09-07-2018",
-  "keywords": null,
-  "funder": null,
-  "temporalCoverage": "NA/NA",
-  "license": null,
+  "description": ["Design and performance features for 30 automobiles", null, null],
+  "datePublished": ["09-07-2018", null, null],
+  "keywords": ["car", "automobile", "motor"],
+  "funder": ["Missouri State University", null, null],
+  "temporalCoverage": ["10/06/2017/09/01/2018", "NA/NA", "NA/NA"],
+  "license": [null, null, null],
   "spatialCoverage": {
     "type": "Place",
-    "name": null,
+    "name": [null, null, null],
     "geo": {
       "type": "GeoShape",
-      "box": "NA NA NA NA"
+      "box": ["NA NA NA NA", "NA NA NA NA", "NA NA NA NA"]
     }
   },
   "variableMeasured": [
@@ -42,56 +50,56 @@
     {
       "type": "PropertyValue",
       "value": "disp",
-      "unitText": null,
-      "description": null
+      "unitText": "cu.in.",
+      "description": "Displacement"
     },
     {
       "type": "PropertyValue",
       "value": "hp",
-      "unitText": null,
-      "description": null
+      "unitText": "horsepower",
+      "description": "Gross Horsepower"
     },
     {
       "type": "PropertyValue",
       "value": "drat",
       "unitText": null,
-      "description": null
+      "description": "Rear Axle Ratio"
     },
     {
       "type": "PropertyValue",
       "value": "wt",
-      "unitText": "pounds",
+      "unitText": "1K pounds",
       "description": "Weight"
     },
     {
       "type": "PropertyValue",
       "value": "qsec",
       "unitText": null,
-      "description": null
+      "description": "1/4 Mile Time"
     },
     {
       "type": "PropertyValue",
       "value": "vs",
-      "unitText": null,
-      "description": null
+      "unitText": "0 = V-shaped, 1 = straight",
+      "description": "Engine"
     },
     {
       "type": "PropertyValue",
       "value": "am",
-      "unitText": null,
-      "description": null
+      "unitText": "0 = automatic, 1 = manual",
+      "description": "Transmission"
     },
     {
       "type": "PropertyValue",
       "value": "gear",
       "unitText": null,
-      "description": null
+      "description": "Number of Forward Gears"
     },
     {
       "type": "PropertyValue",
       "value": "carb",
       "unitText": null,
-      "description": null
+      "description": "Number of Carburetors"
     }
   ],
   "distribution": [

@@ -1,0 +1,14 @@
+"fileName","variableName","description","unitText"
+"epi_bfi.csv","epiE","EPI Extraversion",NA
+"epi_bfi.csv","epiS","EPI Sociability",NA
+"epi_bfi.csv","epiImp","EPI Impulsivity",NA
+"epi_bfi.csv","epilie","EPI Lie Scale",NA
+"epi_bfi.csv","epiNeur","EPI Neuroticism",NA
+"epi_bfi.csv","bfagree","Big 5 Inverntory (from the IPIP) Measure of Agreeableness",NA
+"epi_bfi.csv","bfcon","Big 5 Conscientiousness",NA
+"epi_bfi.csv","bfext","Big 5 Extraversion",NA
+"epi_bfi.csv","bfneur","Big 5 Neuroticism",NA
+"epi_bfi.csv","bfopen","Big 5 Openness",NA
+"epi_bfi.csv","bdi","Beck Depression Scale",NA
+"epi_bfi.csv","traitanx","Trait Anxiety",NA
+"epi_bfi.csv","stateanx","State Anxiety",NA

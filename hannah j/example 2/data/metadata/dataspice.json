@@ -1,0 +1,117 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "13 personality scales from the Eysenck Personality Inventory and Big 5 inventory",
+  "creator": [
+    {
+      "type": "Person",
+      "id": 1,
+      "givenName": "William",
+      "familyName": "Revelle",
+      "email": "revelle@northwestern.edu",
+      "affiliation": "Northwestern University"
+    }
+  ],
+  "description": "A small data set of 5 scales from the Eysenck Personality Inventory, 5 from a Big 5 inventory, a Beck Depression Inventory, and State and Trait Anxiety measures. Used for demonstrations of correlations, regressions, graphic displays.",
+  "datePublished": "06/04/2018",
+  "keywords": null,
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": null,
+  "spatialCoverage": {
+    "type": "Place",
+    "name": "PMCLab at Northwestern University",
+    "geo": {
+      "type": "GeoShape",
+      "box": "42<U+00B0> 03' 17.47\" N NA NA -87<U+00B0> 40' 26.20\" W"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "value": "epiE",
+      "unitText": null,
+      "description": "EPI Extraversion"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "epiS",
+      "unitText": null,
+      "description": "EPI Sociability"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "epiImp",
+      "unitText": null,
+      "description": "EPI Impulsivity"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "epilie",
+      "unitText": null,
+      "description": "EPI Lie Scale"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "epiNeur",
+      "unitText": null,
+      "description": "EPI Neuroticism"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "bfagree",
+      "unitText": null,
+      "description": "Big 5 Inverntory (from the IPIP) Measure of Agreeableness"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "bfcon",
+      "unitText": null,
+      "description": "Big 5 Conscientiousness"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "bfext",
+      "unitText": null,
+      "description": "Big 5 Extraversion"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "bfneur",
+      "unitText": null,
+      "description": "Big 5 Neuroticism"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "bfopen",
+      "unitText": null,
+      "description": "Big 5 Openness"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "bdi",
+      "unitText": null,
+      "description": "Beck Depression Scale"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "traitanx",
+      "unitText": null,
+      "description": "Trait Anxiety"
+    },
+    {
+      "type": "PropertyValue",
+      "value": "stateanx",
+      "unitText": null,
+      "description": "State Anxiety"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "13 personality scales from the Eysenck Personality Inventory and Big 5 inventory",
+      "contentUrl": "https://personality-project.org/pmc.html",
+      "fileFormat": "csv"
+    }
+  ]
+}
