@@ -1,11 +1,12 @@
 {
   "@context": "http://schema.org",
   "type": "Dataset",
-  "name": "mtcars",
+  "name": "sat_act",
   "creator": [
     {
       "type": "Person",
       "id": "your ORC ID",
+<<<<<<< HEAD
       "givenName": "First Name",
       "familyName": "Last Name",
       "email": "n,nn",
@@ -15,23 +16,46 @@
   "description": "jlkjlkj",
   "datePublished": "kljlajsfdkjm",
   "keywords": "jkljlkjguyfyu",
+=======
+<<<<<<< HEAD
+      "givenName": "Arielle",
+      "familyName": "Cunningham",
+=======
+      "givenName": "Sarah",
+      "familyName": "Crain",
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
+      "email": null,
+      "affliation": null
+    }
+  ],
+<<<<<<< HEAD
+  "description": "Data from Motor Trends",
+  "datePublished": "9/28/18",
+  "keywords": "car",
+=======
+  "description": "SAT/ACT Data",
+  "datePublished": null,
+  "keywords": null,
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
+>>>>>>> fc059c8c9fabe462f67302451c0e4018f6728214
   "funder": null,
   "temporalCoverage": "NA/NA",
   "license": null,
   "spatialCoverage": {
     "type": "Place",
-    "name": null
+    "name": "Springfield, MO"
   },
   "variableMeasured": [
     {
       "type": "PropertyValue",
+<<<<<<< HEAD
       "unitText": null,
       "name": "mpg",
-      "description": null
+      "description": "miles per gallon"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "x",
       "name": "cyl",
       "description": null
     },
@@ -45,56 +69,84 @@
       "type": "PropertyValue",
       "unitText": null,
       "name": "hp",
+<<<<<<< HEAD
       "description": "jflajsf"
+=======
+      "description": "horsepower"
+>>>>>>> fc059c8c9fabe462f67302451c0e4018f6728214
     },
     {
       "type": "PropertyValue",
       "unitText": "90879",
       "name": "drat",
       "description": null
+=======
+      "unitText": "",
+      "name": "gender",
+      "description": ""
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
     },
     {
       "type": "PropertyValue",
+<<<<<<< HEAD
       "unitText": "jljl",
       "name": "wt",
+=======
+      "unitText": null,
+      "name": "education",
+>>>>>>> fc059c8c9fabe462f67302451c0e4018f6728214
       "description": null
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+<<<<<<< HEAD
+      "unitText": "xx",
       "name": "qsec",
       "description": null
-    },
-    {
-      "type": "PropertyValue",
+=======
       "unitText": null,
+<<<<<<< HEAD
       "name": "vs",
       "description": "jkljlkjlk"
+=======
+      "name": "age",
+      "description": "sfd"
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
+>>>>>>> fc059c8c9fabe462f67302451c0e4018f6728214
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "am",
+      "name": "ACT",
       "description": null
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
-      "name": "gear",
-      "description": null
+      "unitText": "efew",
+      "name": "SATV",
+      "description": "e"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "carb",
+      "name": "SATQ",
       "description": null
     }
   ],
   "distribution": [
     {
       "type": "DataDownload",
+<<<<<<< HEAD
       "name": "Data from blah blah blah",
+=======
+<<<<<<< HEAD
+      "name": "Data from Motor Trends",
+      "contentUrl": "xxx",
+=======
+      "name": "SAT/ACT Data",
+>>>>>>> fc059c8c9fabe462f67302451c0e4018f6728214
       "contentUrl": null,
+>>>>>>> 718dd4722291530e6a118e8dfeb2e651c891e80f
       "fileFormat": "csv"
     }
   ]
