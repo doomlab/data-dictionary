@@ -333,14 +333,14 @@ server <- function(input, output, session) {
     kable(bib_df_final, format = "html", 
           col.names = c("Title", "Description", "Date Published", "Citation",
                          "Keywords", "License", "Funder", "Geographic Information",
-                         "Start Date", "End Date")) %>% kable_styling(position="left"),
+                         "Start Date", "End Date")) %>% kable_styling(position="left", bootstrap_options = c("striped", "hover")),
     "<p>",
     #section printing access information
     "<h4>Accessing the Data</h4><p>",
     #access table
     kable(access_df_final, format = "html",
           col.names = c("File Name", "Name of Data", "URL", "File Format")) %>% kable_styling(
-            position="left"
+            position="left", bootstrap_options = c("striped", "hover")
           ), 
     "<p>",
     #section printing authors
@@ -348,14 +348,14 @@ server <- function(input, output, session) {
     #creators table
     kable(creators_df_final, format = "html",
           col.names = c("ORC-Id", "First Name", "Last Name", 
-                        "Affliation", "Email")) %>% kable_styling(position="left"),
+                        "Affliation", "Email")) %>% kable_styling(position="left", bootstrap_options = c("striped", "hover")),
     "<p>",
     #section printing attributes
     "<h4>Data Attributes</h4><p>",
     #attributes table
     kable(attributes_df_final[,-1], format = "html",
           col.names = c("Variable Name", "Description", "Units of Measure")) %>% kable_styling(
-            position="left"),
+            position="left", bootstrap_options = c("striped", "hover")),
     sep = ""),
     "</body>"
     ) #end paste
