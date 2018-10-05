@@ -316,46 +316,8 @@ server <- function(input, output, session) {
     
   })
   
-<<<<<<< HEAD
   report_report <- reactive({
     
-    if(!is.null(bib_df_final) & 
-       !is.null(access_df_final) &
-       !is.null(attributes_df_final) &
-       !is.null(creators_df_final))
-    {
-      HTML(paste(
-        #section printing bib information
-        "<h4>Dataset information: </h4><p>",  
-        #bib table
-        kable(bib_df_final, format = "html", 
-              col.names = c("Title", "Description", "Date Published", "Citation",
-                            "Keywords", "License", "Funder", "Geographic Information",
-                            "Start Date", "End Date")) %>% kable_styling(),
-        "<p>",
-        #section printing access information
-        "<h4>Accessing the Data: </h4><p>",
-        #access table
-        kable(access_df_final, format = "html",
-              col.names = c("File Name", "Name of Data", "URL", "File Format")) %>% kable_styling(), 
-        "<p>",
-        #section printing authors
-        "<h4>Authors: </h4><p>",
-        #creators table
-        kable(creators_df_final, format = "html",
-              col.names = c("ORC-Id", "First Name", "Last Name", 
-                            "Affliation", "Email")) %>% kable_styling(),
-        "<p>",
-        #section printing attributes
-        "<h4>Data Attributes: </h4><p>",
-        #attributes table
-        kable(attributes_df_final[,-1], format = "html",
-              col.names = c("Variable Name", "Description", "Units of Measure")) %>% kable_styling(),
-        sep = ""
-      )) #end paste
-    }else{ "Waiting for information."}
-    
-=======
   if(!is.null(bib_df_final) & 
      !is.null(access_df_final) &
      !is.null(attributes_df_final) &
@@ -399,7 +361,6 @@ server <- function(input, output, session) {
     ) #end paste
   }else{ "Waiting for information."}
 
->>>>>>> 5bb672bf894d8d676bdeb4d64a9c9c629f361484
   })
   
   output$title <- renderText(title_report())
