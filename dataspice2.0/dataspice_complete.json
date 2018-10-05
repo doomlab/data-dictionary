@@ -6,7 +6,11 @@
     {
       "type": "Person",
       "id": "your ORC ID",
+<<<<<<< HEAD
       "givenName": "First Name",
+=======
+      "givenName": "Ari",
+>>>>>>> 5bb672bf894d8d676bdeb4d64a9c9c629f361484
       "familyName": "Last Name",
       "email": null,
       "affliation": null
