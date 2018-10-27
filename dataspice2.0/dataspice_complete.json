@@ -8,54 +8,54 @@
       "id": "your ORC ID",
       "givenName": "First Name",
       "familyName": "Last Name",
-      "email": "dsa",
-      "affiliation": "dsa"
+      "email": "ffdsfd",
+      "affiliation": "fdsfds"
     }
   ],
   "description": null,
-  "datePublished": "dsadsa",
-  "keywords": "dsa",
+  "datePublished": "fds",
+  "keywords": "dfsds",
   "funder": null,
-  "temporalCoverage": "ads/NA",
-  "license": null,
+  "temporalCoverage": "NA/NA",
+  "license": "fds",
   "spatialCoverage": {
     "type": "Place",
-    "name": "dsa"
+    "name": "fdsdf"
   },
   "variableMeasured": [
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "mpg",
-      "description": "cxzcx"
+      "description": null
     },
     {
       "type": "PropertyValue",
-      "unitText": "cxz",
+      "unitText": null,
       "name": "cyl",
       "description": null
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "fds",
       "name": "disp",
-      "description": null
+      "description": "fds"
     },
     {
       "type": "PropertyValue",
-      "unitText": "cxz",
+      "unitText": null,
       "name": "hp",
-      "description": "cxz"
+      "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "drat",
-      "description": "xzcx"
+      "description": "fdsfd"
     },
     {
       "type": "PropertyValue",
-      "unitText": "cxz",
+      "unitText": null,
       "name": "wt",
       "description": null
     },
@@ -67,19 +67,19 @@
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "fds",
       "name": "vs",
-      "description": "cxz"
+      "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "am",
-      "description": null
+      "description": "fds"
     },
     {
       "type": "PropertyValue",
-      "unitText": "cxz",
+      "unitText": null,
       "name": "gear",
       "description": null
     },
@@ -94,7 +94,7 @@
     {
       "type": "DataDownload",
       "name": "mtcars",
-      "contentUrl": "dsadsa",
+      "contentUrl": "fdsfds",
       "fileFormat": "csv"
     }
   ]
