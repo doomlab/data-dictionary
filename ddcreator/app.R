@@ -1,15 +1,20 @@
+## Data Dictionary Creator
+## SIPS Hackathon 2018: Lisa DeBruine, Alicia Moher, and Erin M. Buchanan
+## Updates by Erin M. Buchanan and DOOM Lab Team: Sarah Crain, Arielle Cunningham, Hannah Johnson, Hannah Stash
+
 ## app.R ##
 library(shiny)
 library(shinydashboard)
 library(DT)
+library(jsonlite)
 
 ## interface files
 source("project_interface.R")
 source("help_interface.R")
-source("upload_interface.R")
 source("variables_interface.R")
 source("labels_interface.R")
 source("output_interface.R")
+source("upload_interface.R")
 
 ## Global Variables ----
 rawdata <- NULL
@@ -18,16 +23,15 @@ level_col_data <- NULL
 attribute_storage <- list()
 
 ## UI ----
-ui <- dashboardPage(
-  dashboardHeader(title = "DDConvertor"),
+ui <- dashboardPage(skin = 'black',
+  dashboardHeader(title = tags$b("DD Creator")),
   dashboardSidebar(
     sidebarMenu(
-      menuItem("1. Project Info", tabName = "project_tab"),
-      menuItem("2. Upload Data", tabName = "upload_tab"),
-      menuItem("3. Variables", tabName = "variables_tab"),
-      menuItem("4. Category Labels", tabName = "labels_tab"),
-      menuItem("5. Output", tabName = "output_tab"),
-      menuItem("Help", tabName = "help_tab")
+      menuItem(tags$b("1. Project Info"), tabName = "project_tab"),
+      menuItem(tags$b("2. Upload Data"), tabName = "upload_tab"),
+      menuItem(tags$b("3. Variables"), tabName = "variables_tab"),
+      menuItem(tags$b("4. Category Labels"), tabName = "labels_tab"),
+      menuItem(tags$b("5. Output"), tabName = "output_tab")
     )
   ),
   dashboardBody(
@@ -36,8 +40,7 @@ ui <- dashboardPage(
       upload_tab,
       variables_tab,
       labels_tab,
-      output_tab,
-      help_tab
+      output_tab
     ) # end tabItems
   ) # end dashboardBody
 ) # end dashboardPage
@@ -85,7 +88,8 @@ server <- function(input, output, session) {
   ## output$rawdata_table ----
   output$rawdata_table <- renderDataTable({
     dat()
-    datatable(rawdata, rownames = F)
+    datatable(rawdata, rownames = F,
+              options = list(scrollX = T))
   })
   
   ## output$vars_table ----
@@ -141,7 +145,8 @@ server <- function(input, output, session) {
       stringsAsFactors = F
     )
     
-    datatable(var_data, editable = TRUE, rownames = F,
+    datatable(var_data, editable = TRUE, rownames = F, 
+              options = list(scrollX = T),
               colnames = c(
                 'Variable',
                 '# Unique Values',
@@ -182,7 +187,8 @@ server <- function(input, output, session) {
     
     level_col_data <<- attribute_storage[[theCol]]
     
-    datatable(level_col_data, editable = TRUE, rownames = F)
+    datatable(level_col_data, editable = TRUE, rownames = F,
+              options = list(scrollX = T))
   })
   
   ## proxy saving level column data ----
@@ -210,7 +216,7 @@ server <- function(input, output, session) {
   
   ## output$output_attributes_csv ----
   output$output_attributes <- downloadHandler(
-    filename = paste0(file_name, "_valuelabels_", gsub("-", "", Sys.Date()), ".csv"),
+    filename = paste0(file_name, "_categorylabels_", gsub("-", "", Sys.Date()), ".csv"),
     content = function(file) {
       temp <- do.call("rbind", attribute_storage)
       colnames(temp) = c("description", "values") #temporary fix since these are writing out backwards
@@ -220,7 +226,7 @@ server <- function(input, output, session) {
   
   ## output$output_Rdata & set attributes ----
   output$output_rdata <- downloadHandler(
-    filename= paste0(file_name, "_metadata_", gsub("-", "", Sys.Date()), ".Rdata"),
+    filename= paste0(file_name, "_combinedRdata_", gsub("-", "", Sys.Date()), ".Rdata"),
     content = function(file) {
       
       #convert missing descriptions to blank
@@ -235,9 +241,28 @@ server <- function(input, output, session) {
         temp <- as.character(attribute_storage[[i]][,1])
         names(temp) <- attribute_storage[[i]][,2]
         attr(rawdata[,i], "labels") <- temp
-      }
-      
+      } #close the for loop
       save(rawdata, file=file)
+    } #close content
+  )
+  
+  ## output$output_JSON & set attributes ----
+  output$output_JSON <- downloadHandler(
+    filename= paste0(file_name, "_JSON_", gsub("-", "", Sys.Date()), ".JSON"),
+    content = function(file) {
+      
+      #take metadata data and create JSON
+      list(
+        type = "Dataset",
+        name = file_name,
+        projectname = input$project_name,
+        creator = input$project_author,
+        description = input$project_description,
+        datePublished = Sys.Date(),
+        "variable_data" = var_data,
+        "category_labels" = attribute_storage) %>% 
+        toJSON() %>%
+        writeLines(file)
     }
   )
   

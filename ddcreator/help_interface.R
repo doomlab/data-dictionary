@@ -1,9 +1,11 @@
 help_tab <- tabItem(tabName = "help_tab",
   fluidRow(
     box(
-      title = "Help",
+      title = tags$b("Help"),
+      collapsible = TRUE,
+      solidHeader = TRUE,
       width = 12,
-      h3("Metadata format"),
+      tags$b(h3("Metadata Format")),
       p(
         "If metadata is included, this should be specified as a nested JSON file containing a name, a description, an author, and a variable object. The nested variable object must minimally encode a list of objects, one per variable. Each object has the following keys:"
       ),
