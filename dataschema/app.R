@@ -1,4 +1,4 @@
-# DataSpice 2.0 written by Erin M. Buchanan altering the great work by the rOpenSciLabs group
+# DataSchema written by Erin M. Buchanan altering the great work by the rOpenSciLabs group from dataspice
 # Code also borrowed from ddcreator by Lisa DeBruine, Alicia Moher, and Erin M. Buchanan
 # Research Team: Sarah Crain, Arielle Cunningham, Hannah Johnson, Hannah Stash
 library(shiny)
@@ -34,7 +34,7 @@ attributes_df_final <- NULL
 # Interface ---------------------------------------------------------------
 
 ui <- dashboardPage(
-  dashboardHeader(title = "Data Spice 2.0"),
+  dashboardHeader(title = "DataSchema"),
   dashboardSidebar(
     sidebarMenu(
       menuItem("1. Upload Data", tabName = "data_tab"),
@@ -255,7 +255,7 @@ server <- function(input, output, session) {
   })
 
   output$save_json <- downloadHandler(
-    filename = "dataspice_complete.json",
+    filename = "dataschema_complete.json",
     content = function(filename) { 
       write(
         write_spice(creators_df_final, access_df_final,
