@@ -11,14 +11,16 @@ data_tab <- tabItem(tabName = "data_tab",
         file of this information to create a machine readable document for the dataset. Last, you can
         generate an HTML report of the information you entered to share with others for maximum reach
         to all audiences."),
-      fileInput("inFile", ".TXT/CSV/XLS(X) Data File",
+      fileInput("inFile", ".TXT/CSV/XLS(X)/SAS/SPSS Data File",
                 multiple = FALSE, width = NULL,
                 accept = c(
                   'text/csv',
                   'text/comma-separated-values,text/plain',
                   '.csv',
                   '.xls',
-                  '.xlsx'
+                  '.xlsx',
+                  '.sav',
+                  '.sas'
                 ),
                 buttonLabel = "Browse...",
                 placeholder = "No file selected"
