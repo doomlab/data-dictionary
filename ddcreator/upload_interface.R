@@ -11,7 +11,7 @@ upload_tab <- tabItem(tabName = "upload_tab",
         editing the metadata on the next pages under items 3 and 4 on the left hand 
         menu. The data file you uploaded will be displayed below, so you can verify 
         it was read properly."),
-      fileInput("inFile", "CSV/XLS(X)/SAV/SAS Data File", 
+      fileInput("inFile", "TXT/CSV/XLS(X)/SAV/SAS Data File", 
                 multiple = FALSE, width = NULL,
                 accept = c(
                   'text/csv',

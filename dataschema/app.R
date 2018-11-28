@@ -8,6 +8,8 @@ library(rhandsontable)
 library(jsonlite)
 library(knitr)
 library(kableExtra)
+library(haven)
+library(readr)
 
 # Interface files ---------------------------------------------------------
 source("data_tab.R")
@@ -80,6 +82,9 @@ server <- function(input, output, session) {
       rawdata <<- haven::read_sav(inFile$datapath)
     } else if (file_extension %in% c("sas")) {
       rawdata <<- haven::read_sas(inFile$datapath)
+    } else if (file_extension %in% c("txt")) {
+      rawdata <<- as.data.frame(read.delim(inFile$datapath,
+                                                   header = input$header))
     }
 
     #save file name as global variable for writing

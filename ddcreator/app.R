@@ -7,6 +7,8 @@ library(shiny)
 library(shinydashboard)
 library(DT)
 library(jsonlite)
+library(haven)
+library(readr)
 
 ## interface files
 source("project_interface.R")
@@ -57,12 +59,15 @@ server <- function(input, output, session) {
       rawdata <<- read.csv(inFile$datapath, header = input$header,
                            stringsAsFactors = F)
     } else if (file_extension %in% c("xls", "xlsx")) {
-      rawdata <<- as.data.frame(readxl::read_excel(inFile$datapath, 
+      rawdata <<- as.data.frame(readxl::read_excel(inFile$datapath,
                                                    col_names = input$header))
     } else if (file_extension %in% c("sav")) {
-      rawdata <<- haven::read_sav(inFile$datapath)
+      rawdata <<- as.data.frame(haven::read_sav(inFile$datapath))
     } else if (file_extension %in% c("sas")) {
-      rawdata <<- haven::read_sas(inFile$datapath)
+      rawdata <<- as.data.frame(haven::read_sas(inFile$datapath))
+    } else if (file_extension %in% c("txt")) {
+      rawdata <<- as.data.frame(read.delim(inFile$datapath,
+                                           header = input$header))
     }
     
     #save file name as global variable for writing
