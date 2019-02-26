@@ -256,16 +256,17 @@ server <- function(input, output, session) {
     filename= paste0(file_name, "_JSON_", gsub("-", "", Sys.Date()), ".JSON"),
     content = function(file) {
       
+      #var_list <- split(var_data, seq(nrow(var_data)))
+      
       #take metadata data and create JSON
-      list(
-        type = "Dataset",
+      list(type = "Dataset",
         name = file_name,
-        projectname = input$project_name,
-        creator = input$project_author,
+        alternateName = input$project_name,
         description = input$project_description,
         datePublished = Sys.Date(),
-        "variable_data" = var_data,
-        "category_labels" = attribute_storage) %>% 
+        creator = input$project_author,
+        variableMeasured = var_data,
+        disambiguatingDescription = attribute_storage) %>% 
         toJSON() %>%
         writeLines(file)
     }
