@@ -1,0 +1,101 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "mtcars",
+  "creator": [
+    {
+      "type": "Person",
+      "id": "0000-0002-9689-4189",
+      "givenName": "Erin",
+      "familyName": "Buchanan",
+      "email": "youremail@email.edu",
+      "affiliation": "HUST"
+    }
+  ],
+  "description": "The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).",
+  "datePublished": "1981-01-01",
+  "keywords": ["Cars", "trends", "automobiles"],
+  "funder": "NA",
+  "temporalCoverage": "NA/NA",
+  "license": "MIT",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": "NA"
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": "Numeric and positive",
+      "name": "mpg",
+      "description": "Miles per gallon"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Numeric, 2, 4, 6 only",
+      "name": "cyl",
+      "description": "Cylinders"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Numeric, cubic inches",
+      "name": "disp",
+      "description": "Displacement"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Numeric, positive",
+      "name": "hp",
+      "description": "Horsepower"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Numeric, positive",
+      "name": "drat",
+      "description": "Rear axle ratio"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Numeric, in 1000lbs increments",
+      "name": "wt",
+      "description": "Weight"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Numeric, 1/4th mile time",
+      "name": "qsec",
+      "description": "Timing"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Categorical, 0 = V shaped, 1 = straight",
+      "name": "vs",
+      "description": "Engine"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Categorical, 0 = automatic, 1 = manual",
+      "name": "am",
+      "description": "Transmission"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Numeric, positive",
+      "name": "gear",
+      "description": "Number of forward gears"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Numeric, positive",
+      "name": "carb",
+      "description": "Carburetors"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "Motor Trends car data",
+      "contentUrl": "https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html",
+      "fileFormat": "csv"
+    }
+  ]
+}

@@ -120,7 +120,7 @@ server <- function(input, output, session) {
       if (length(uv) < 11) {
         paste(sort(uv), collapse = ", ")
       } else {
-        ""
+        "NA"
       }
     })
     
@@ -136,7 +136,7 @@ server <- function(input, output, session) {
       
       # editable - required
       # TODO: get from SPSS description column
-      description = "",
+      description = "Enter Here",
       
       # editable - optional
       type = types,
@@ -144,7 +144,7 @@ server <- function(input, output, session) {
       max = max_vals,
       na = TRUE,
       na_values = 'NA',
-      synonyms = NA,
+      synonyms = 'NA',
       
       # arguments
       stringsAsFactors = F
@@ -182,7 +182,7 @@ server <- function(input, output, session) {
     i = info$row
     j = info$col
     v = info$value
-    var_data[i,j] <<- isolate(DT::coerceValue(v, var_data[i,j]))
+    var_data[i,j+1] <<- isolate(DT::coerceValue(v, var_data[i,j+1]))
     #replaceData(vars_proxy, var_data, resetPaging = F)
   })
   
@@ -204,7 +204,7 @@ server <- function(input, output, session) {
     i = info$row
     j = info$col
     v = info$value
-    level_col_data[i,j] <<- isolate(DT::coerceValue(v, level_col_data[i,j]))
+    level_col_data[i,j+1] <<- isolate(DT::coerceValue(v, level_col_data[i,j+1]))
     #replaceData(level_col_proxy, level_col_data, resetPaging = F)
     
     # save level column data to temp storage, eventually to attributes
@@ -224,8 +224,8 @@ server <- function(input, output, session) {
     filename = paste0(file_name, "_categorylabels_", gsub("-", "", Sys.Date()), ".csv"),
     content = function(file) {
       temp <- do.call("rbind", attribute_storage)
-      colnames(temp) = c("description", "values") #temporary fix since these are writing out backwards
-      write.csv(temp[ , c(2,1)], file, row.names = T, quote = TRUE)
+      colnames(temp) = c("values", "description") 
+      write.csv(temp[ , c(1,2)], file, row.names = T, quote = TRUE)
     }
   )
   
