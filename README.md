@@ -20,4 +20,4 @@ Data apps:
 
 The data provided was downloaded from base *R* datasets package *mtcars*: Motor Trend Car Road Tests. The description of the data is: The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
 
-To be able to follow along with the tutorials, we have provided the data on OSF here: https://osf.io/3y2ex/files/.
+To be able to follow along with the tutorials, we have provided the data on OSF here: https://osf.io/3y2ex/files/. You can additionally view the output from each of the apps we demonstrate in the paper.
