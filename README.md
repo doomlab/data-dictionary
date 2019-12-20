@@ -3,12 +3,11 @@ Data Dictionary Group
 
 OSF Page: https://osf.io/3y2ex/
 
-Pre-print:
+Pre-print: https://osf.io/vd4y3/
 
 Video tutorials:
 - Codebook
-- DataSchema
-- DD Creator
+- Data Dictionary Creator
 
 Data apps:
 - Codebook: https://opencpu.formr.org/ocpu/library/codebook/www/
