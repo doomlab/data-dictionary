@@ -3,20 +3,17 @@ Data Dictionary Group
 
 OSF Page: https://osf.io/3y2ex/
 
-Pre-print: https://osf.io/vd4y3/
+Pre-print: https://osf.io/vd4y3/ 
 
 Video tutorials:
-- Codebook
-- Data Dictionary Creator
+- Part 1: Download the data: https://youtu.be/qKRmKzdnZnM
+- Part 2: Codebooks: https://youtu.be/ae_8DH6R4Ns
+- Part 2: Data dictionaries: https://youtu.be/QnSBP59FiRM 
+- Part 3: Sharing the data: https://youtu.be/vveQtsrQr3k
 
 Data apps:
-- Codebook: https://opencpu.formr.org/ocpu/library/codebook/www/
-- DataSchema: https://doomlab.shinyapps.io/dataschema/
-    - Check out the code at:  https://github.com/doomlab/data-dictionary/tree/master/dataschema  
-- DD Creator: https://doomlab.shinyapps.io/ddcreator/ 
-    - Check out the code at: https://github.com/doomlab/data-dictionary/tree/master/ddcreator
+- Codebook: https://codebook.formr.org
+- Data Dictionary Creator: https://doomlab.shinyapps.io/ddcreator/ 
+- Check out the code at: https://github.com/doomlab/dd-creator
 
-
-The data provided was downloaded from base *R* datasets package *mtcars*: Motor Trend Car Road Tests. The description of the data is: The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
-
-To be able to follow along with the tutorials, we have provided the data on OSF here: https://osf.io/3y2ex/files/. You can additionally view the output from each of the apps we demonstrate in the paper.
+The data is from a workshop given by Erin Buchanan and Flavio Azevedo at SIPS 2019. You can check out that workshop and project here: https://osf.io/X53KN/. All data and outputs are stored here: https://osf.io/3y2ex/files/ for you to follow along with the tutorials. These tutorials are updated as the data applicatons are updated and changed. 
